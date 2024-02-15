@@ -1,0 +1,52 @@
+*
+{
+    margin: 0%;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/564x/9e/6b/df/9e6bdfe010484f0aa3f1984766e1dd18.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 65px;
+}
+
+.Countdown{
+  display: flex;
+  transform: scale(1);
+  margin-top: 18px;
+}
+
+.time h2{
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+}
+
+.year h1{
+    position: absolute;
+    bottom: 20px;
+   
+    font-size: 120px;
+    opacity: 0.2;
+}
+
+.time small {
+    font-size: 18px;
+
+}
